@@ -1,0 +1,33 @@
+{
+  "name": "react-virtual-dom",
+  "version": "1.0.0",
+  "description": "React.js virtual dom的实现",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sakitama/react-virtual-dom.git"
+  },
+  "keywords": [
+    "virtual",
+    "dom"
+  ],
+  "author": "Sakitama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sakitama/react-virtual-dom/issues"
+  },
+  "homepage": "https://github.com/Sakitama/react-virtual-dom#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "list-diff2": "^0.1.4"
+  }
+}
