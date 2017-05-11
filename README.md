@@ -6,7 +6,7 @@
 
 ## 使用方法
 
-1. `npm install`安装所以依赖
+1. `npm install`安装所有依赖
 2. 在`./src/js/main.js`编辑代码：
 ```javascript
 import el from './element';
@@ -41,12 +41,12 @@ setInterval(() => {
     patch(dom, patches);
 }, 2000);
 ```
-3. 使用`npm start`运行webpack打包，打开`test/test.html`查看结果。
+3. 使用`npm start`运行webpack打包，打开`test/test.html`查看结果
 
 ## 算法介绍
 
 主要分为四步：
-1. 使用`el`方法用js对象结构代表一棵DOM树，称为js树。
-2. 使用`render`方法用js树生成真正的DOM树插入到文档中。
-3. 如果新生成了一棵js树，使用`diff`方法比较旧树和新树之间的差别，找到需要给旧树使用的“补丁”。
-4. 使用`patch`方法根据第三步得到的“补丁”去更新第二步中生成的DOM树。
+1. 使用`el`方法用js对象结构代表一棵DOM树，称为js树
+2. 使用`render`方法用js树生成真正的DOM树插入到文档中
+3. 如果新生成了一棵js树，使用`diff`方法比较旧树和新树之间的差别，找到需要给旧树使用的“补丁”
+4. 使用`patch`方法根据第三步得到的“补丁”去更新第二步中生成的DOM树
