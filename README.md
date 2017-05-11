@@ -7,7 +7,7 @@
 ## 使用方法
 
 1. `npm install`安装所有依赖
-2. 在`./src/js/main.js`编辑代码：
+2. 在`./src/js/main.js`编辑代码，样例如下：
 ```javascript
 import el from './element';
 import diff from './diff';
